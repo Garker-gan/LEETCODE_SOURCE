@@ -7,7 +7,7 @@
 int fib(int n){
     int a = 0;
     int b = (n == 0) ? 0 : 1;
-    int c = 1e9 + 7;
+    int c = 1e9 + 7;    //防止溢出
     int res = a+b;
     for(int i = 0 ; i < n-1 ; i++)
     {
