@@ -1,5 +1,6 @@
 /* 
-    514:自由之路 动态规划
+    514:自由之路（困难） 动态规划
+    参考题解方法
     https://leetcode-cn.com/problems/freedom-trail/
     Garker-gan
     2020-11-11
