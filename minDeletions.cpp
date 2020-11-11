@@ -30,10 +30,12 @@ public:
         int repeat = 0;
         for(it2 = m2.begin();it2 != m2.end();it2++)
         {
+            cout<<it2->second<<endl;
             if(it2->second == 0) temp = count;
             if(it2->second > 1)  repeat = it2->second;
             count++;
         }
+        cout<<repeat<<" "<<temp<<endl;
         return repeat-temp;
     }
 };
@@ -41,6 +43,8 @@ public:
 int main()
 {
     Solution s;
+    // a b c d
+    // 4 2 4 6
     cout<<s.minDeletions("accdcdadddbaadbc")<<endl;
     return 0;
 }
