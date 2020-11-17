@@ -1,5 +1,7 @@
 /* 
-    1030. 距离顺序排列矩阵单元格 暴力排序
+    1030. 距离顺序排列矩阵单元格 暴力排序】
+    Lamada表达式：[capture list] (params list) mutable exception-> return type { function body }
+    隐式捕获[=]和[&]
     Garker-gan
     2020-11-17
  */
